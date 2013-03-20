@@ -585,8 +585,6 @@ BOOL DR_VendorCmnd(void)
 //-----------------------------------------------------------------------------
 
 // Setup Data Available Interrupt Handler
-
-
 void ISR_Sudav(void) interrupt 0
 {
    
@@ -627,10 +625,9 @@ void ISR_Ures(void) interrupt 0
 
 void ISR_Susp(void) interrupt 0
 {
-    Sleep = TRUE;
+   Sleep = TRUE;
    EZUSB_IRQ_CLEAR();
    USBIRQ = bmSUSP;
-  
 }
 
 void ISR_Highspeed(void) interrupt 0

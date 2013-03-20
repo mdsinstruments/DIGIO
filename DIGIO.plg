@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Montana\Documents\GitHub\DIGIO\DIGIO.uvproj
+Project File Date:  03/19/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling DIGIO.c...
+assembling DSCR.A51...
+compiling fw.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?FPGA_SPIREADBYTE?DIGIO
+Program Size: data=118.5 xdata=4473 code=3367
+creating hex file from ".\obj\DIGIO"...
+User command #1: C:\Cypress\USB\bin\Hex2bix.exe -i -f 0xC2 -p 0x0130 -o .\obj\DIGIO.iic .\obj\DIGIO.hex
+Intel Hex file to EZ-USB Binary file conversion utility
+Copyright (c) 1997-2005, Cypress Semiconductor Inc.
+3396 Bytes written.
+Total Code Bytes = 3367
+Conversion completed successfully.
+".\obj\DIGIO" - 0 Error(s), 1 Warning(s).
